@@ -13,6 +13,10 @@
 		F7FC6E3F21C0E51700501F74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7FC6E3E21C0E51700501F74 /* Assets.xcassets */; };
 		F7FC6E4221C0E51700501F74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7FC6E4021C0E51700501F74 /* LaunchScreen.storyboard */; };
 		F7FC6E4521C0E51700501F74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FC6E4421C0E51700501F74 /* main.m */; };
+		F7FC6E4E21C0FE3C00501F74 /* DYSDemo01ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FC6E4C21C0FE3C00501F74 /* DYSDemo01ViewController.m */; };
+		F7FC6E4F21C0FE3C00501F74 /* DYSDemo01ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7FC6E4D21C0FE3C00501F74 /* DYSDemo01ViewController.xib */; };
+		F7FC6E5321C0FE4B00501F74 /* DYSDemo02ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FC6E5121C0FE4B00501F74 /* DYSDemo02ViewController.m */; };
+		F7FC6E5421C0FE4B00501F74 /* DYSDemo02ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7FC6E5221C0FE4B00501F74 /* DYSDemo02ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,12 @@
 		F7FC6E4121C0E51700501F74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7FC6E4321C0E51700501F74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7FC6E4421C0E51700501F74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7FC6E4B21C0FE3C00501F74 /* DYSDemo01ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo01ViewController.h; sourceTree = "<group>"; };
+		F7FC6E4C21C0FE3C00501F74 /* DYSDemo01ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo01ViewController.m; sourceTree = "<group>"; };
+		F7FC6E4D21C0FE3C00501F74 /* DYSDemo01ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo01ViewController.xib; sourceTree = "<group>"; };
+		F7FC6E5021C0FE4B00501F74 /* DYSDemo02ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo02ViewController.h; sourceTree = "<group>"; };
+		F7FC6E5121C0FE4B00501F74 /* DYSDemo02ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo02ViewController.m; sourceTree = "<group>"; };
+		F7FC6E5221C0FE4B00501F74 /* DYSDemo02ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo02ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,12 @@
 				F7FC6E3621C0E51300501F74 /* AppDelegate.m */,
 				F7FC6E3821C0E51300501F74 /* ViewController.h */,
 				F7FC6E3921C0E51300501F74 /* ViewController.m */,
+				F7FC6E4B21C0FE3C00501F74 /* DYSDemo01ViewController.h */,
+				F7FC6E4C21C0FE3C00501F74 /* DYSDemo01ViewController.m */,
+				F7FC6E4D21C0FE3C00501F74 /* DYSDemo01ViewController.xib */,
+				F7FC6E5021C0FE4B00501F74 /* DYSDemo02ViewController.h */,
+				F7FC6E5121C0FE4B00501F74 /* DYSDemo02ViewController.m */,
+				F7FC6E5221C0FE4B00501F74 /* DYSDemo02ViewController.xib */,
 				F7FC6E3B21C0E51300501F74 /* Main.storyboard */,
 				F7FC6E3E21C0E51700501F74 /* Assets.xcassets */,
 				F7FC6E4021C0E51700501F74 /* LaunchScreen.storyboard */,
@@ -97,6 +113,7 @@
 		F7FC6E2A21C0E51200501F74 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DYS;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "丁玉松";
 				TargetAttributes = {
@@ -129,7 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7FC6E4221C0E51700501F74 /* LaunchScreen.storyboard in Resources */,
+				F7FC6E4F21C0FE3C00501F74 /* DYSDemo01ViewController.xib in Resources */,
 				F7FC6E3F21C0E51700501F74 /* Assets.xcassets in Resources */,
+				F7FC6E5421C0FE4B00501F74 /* DYSDemo02ViewController.xib in Resources */,
 				F7FC6E3D21C0E51300501F74 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +161,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7FC6E3A21C0E51300501F74 /* ViewController.m in Sources */,
+				F7FC6E4E21C0FE3C00501F74 /* DYSDemo01ViewController.m in Sources */,
+				F7FC6E5321C0FE4B00501F74 /* DYSDemo02ViewController.m in Sources */,
 				F7FC6E4521C0E51700501F74 /* main.m in Sources */,
 				F7FC6E3721C0E51300501F74 /* AppDelegate.m in Sources */,
 			);
