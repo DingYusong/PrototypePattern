@@ -1,18 +1,18 @@
 //
-//  DYSDemo02ViewController.m
+//  DYSDemo03ViewController.m
 //  PrototypePattern
 //
-//  Created by 丁玉松 on 2018/12/12.
+//  Created by 丁玉松 on 2018/12/13.
 //  Copyright © 2018 丁玉松. All rights reserved.
 //
 
-#import "DYSDemo02ViewController.h"
+#import "DYSDemo03ViewController.h"
 
-@interface DYSDemo02ViewController ()
+@interface DYSDemo03ViewController ()
 
 @end
 
-@implementation DYSDemo02ViewController
+@implementation DYSDemo03ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

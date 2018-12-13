@@ -29,6 +29,10 @@
                                  @"title":@"原型模式改造",
                                  @"page":@"DYSDemo02ViewController"
                                  },
+                             @{
+                                 @"title":@"iOS中的原型模式",
+                                 @"page":@"DYSDemo03ViewController"
+                                 },
                              ];
     self.tableView.rowHeight = 50;
 }
