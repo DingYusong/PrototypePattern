@@ -16,6 +16,10 @@
 
 @implementation DYSDemo02ViewController
 
+
+/**
+ 当一个对象的创建很复杂，且需要大量相似对象的时候，这个时候很适合用原型模式。大量相同的工作可以复用。
+ */
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
@@ -43,6 +47,7 @@
 
     NSLog(@"姓名：%@ 年龄：%ld 所教科目：%@",teacher1.name,(long)teacher1.age,teacher1.course);
     NSLog(@"姓名：%@ 年龄：%ld 所教科目：%@",teacher2.name,(long)teacher2.age,teacher2.course);
+    
     
 }
 
