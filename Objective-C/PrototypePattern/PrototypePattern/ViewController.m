@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
+@interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic, copy) NSArray *dataSourceArray;
@@ -21,19 +21,19 @@
     [super viewDidLoad];
     self.title = @"原型模式";
     self.dataSourceArray = @[
-                             @{
-                                 @"title":@"无模式场景",
-                                 @"page":@"DYSDemo01ViewController"
-                                 },
-                             @{
-                                 @"title":@"原型模式改造",
-                                 @"page":@"DYSDemo02ViewController"
-                                 },
-                             @{
-                                 @"title":@"iOS中的原型模式",
-                                 @"page":@"DYSDemo03ViewController"
-                                 },
-                             ];
+        @{
+            @"title": @"无模式场景",
+            @"page": @"DYSDemo01ViewController"
+        },
+        @{
+            @"title": @"原型模式改造",
+            @"page": @"DYSDemo02ViewController"
+        },
+        @{
+            @"title": @"iOS中的原型模式",
+            @"page": @"DYSDemo03ViewController"
+        },
+    ];
     self.tableView.rowHeight = 50;
 }
 
@@ -48,7 +48,7 @@
     if (!cell) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"CellID"];
     }
-    
+
     NSDictionary *dict = [self.dataSourceArray objectAtIndex:(self.dataSourceArray.count - indexPath.row - 1)];
     cell.textLabel.text = [dict objectForKey:@"title"];
     cell.textLabel.numberOfLines = 0;

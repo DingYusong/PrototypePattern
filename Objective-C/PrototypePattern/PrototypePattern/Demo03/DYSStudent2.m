@@ -20,7 +20,7 @@
     return self;
 }
 
--(id)copyWithZone:(NSZone *)zone {
+- (id)copyWithZone:(NSZone *)zone {
     DYSStudent2 *student = [[[self class] allocWithZone:zone] initWithName:self.name age:self.age grade:self.grade];
     return student;
 }

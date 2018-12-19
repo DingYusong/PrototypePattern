@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface DYSStudent2 : NSObject<NSCopying>
+@interface DYSStudent2 : NSObject <NSCopying>
 
 - (instancetype)initWithName:(NSString *)name age:(NSInteger)age grade:(NSInteger)grade;
 

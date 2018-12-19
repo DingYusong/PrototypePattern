@@ -20,10 +20,9 @@
     return self;
 }
 
--(id)dys_clone {
+- (id)dys_clone {
     DYSTeacher *teacher = [[[self class] alloc] initWithName:self.name age:self.age course:self.course];
     return teacher;
 }
-
 
 @end
