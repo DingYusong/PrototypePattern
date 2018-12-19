@@ -45,16 +45,7 @@
 
     NSLog(@"姓名：%@ 年龄：%ld 所教科目：%@", teacher1.name, (long)teacher1.age, teacher1.course);
     NSLog(@"姓名：%@ 年龄：%ld 所教科目：%@", teacher2.name, (long)teacher2.age, teacher2.course);
+    
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

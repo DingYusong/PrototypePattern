@@ -42,6 +42,13 @@
 
     NSLog(@"姓名：%@ 年龄：%ld 所教科目：%@", teacher1.name, (long)teacher1.age, teacher1.course);
     NSLog(@"姓名：%@ 年龄：%ld 所教科目：%@", teacher2.name, (long)teacher2.age, teacher2.course);
+    
+    NSString *str = [NSString stringWithFormat:@"姓名：%@ 年龄：%ld 所教科目：%@",teacher1.name, (long)teacher1.age, teacher1.course];
+    NSString *str2 = [str copy];
+    NSString *str3 = [str mutableCopy];
+    NSLog(@"str:%p",str);
+    NSLog(@"str2:%p",str2);
+    NSLog(@"str3:%p",str3);
 }
 
 /*
