@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7EB72D921CA3E8C0068454B /* DYSTeacher2.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EB72D821CA3E8C0068454B /* DYSTeacher2.m */; };
+		F7EB72DC21CA48940068454B /* DYSStudent2.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EB72DB21CA48940068454B /* DYSStudent2.m */; };
 		F7FC6E3721C0E51300501F74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FC6E3621C0E51300501F74 /* AppDelegate.m */; };
 		F7FC6E3A21C0E51300501F74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FC6E3921C0E51300501F74 /* ViewController.m */; };
 		F7FC6E3D21C0E51300501F74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7FC6E3B21C0E51300501F74 /* Main.storyboard */; };
@@ -24,6 +26,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F7EB72D721CA3E8C0068454B /* DYSTeacher2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSTeacher2.h; sourceTree = "<group>"; };
+		F7EB72D821CA3E8C0068454B /* DYSTeacher2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSTeacher2.m; sourceTree = "<group>"; };
+		F7EB72DA21CA48940068454B /* DYSStudent2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSStudent2.h; sourceTree = "<group>"; };
+		F7EB72DB21CA48940068454B /* DYSStudent2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSStudent2.m; sourceTree = "<group>"; };
 		F7FC6E3221C0E51300501F74 /* PrototypePattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrototypePattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7FC6E3521C0E51300501F74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F7FC6E3621C0E51300501F74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,6 +67,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F7EB72D621CA3E550068454B /* Demo03 */ = {
+			isa = PBXGroup;
+			children = (
+				F7FC6E5521C1FD0D00501F74 /* DYSDemo03ViewController.h */,
+				F7FC6E5621C1FD0D00501F74 /* DYSDemo03ViewController.m */,
+				F7FC6E5721C1FD0D00501F74 /* DYSDemo03ViewController.xib */,
+				F7EB72D721CA3E8C0068454B /* DYSTeacher2.h */,
+				F7EB72D821CA3E8C0068454B /* DYSTeacher2.m */,
+				F7EB72DA21CA48940068454B /* DYSStudent2.h */,
+				F7EB72DB21CA48940068454B /* DYSStudent2.m */,
+			);
+			path = Demo03;
+			sourceTree = "<group>";
+		};
 		F7FC6E2921C0E51200501F74 = {
 			isa = PBXGroup;
 			children = (
@@ -88,9 +108,7 @@
 				F7FC6E4C21C0FE3C00501F74 /* DYSDemo01ViewController.m */,
 				F7FC6E4D21C0FE3C00501F74 /* DYSDemo01ViewController.xib */,
 				F7FC6E5A21C1FD8900501F74 /* Demo02 */,
-				F7FC6E5521C1FD0D00501F74 /* DYSDemo03ViewController.h */,
-				F7FC6E5621C1FD0D00501F74 /* DYSDemo03ViewController.m */,
-				F7FC6E5721C1FD0D00501F74 /* DYSDemo03ViewController.xib */,
+				F7EB72D621CA3E550068454B /* Demo03 */,
 				F7FC6E3B21C0E51300501F74 /* Main.storyboard */,
 				F7FC6E3E21C0E51700501F74 /* Assets.xcassets */,
 				F7FC6E4021C0E51700501F74 /* LaunchScreen.storyboard */,
@@ -189,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7EB72D921CA3E8C0068454B /* DYSTeacher2.m in Sources */,
 				F7FC6E3A21C0E51300501F74 /* ViewController.m in Sources */,
 				F7FC6E4E21C0FE3C00501F74 /* DYSDemo01ViewController.m in Sources */,
 				F7FC6E5321C0FE4B00501F74 /* DYSDemo02ViewController.m in Sources */,
@@ -197,6 +216,7 @@
 				F7FC6E3721C0E51300501F74 /* AppDelegate.m in Sources */,
 				F7FC6E5821C1FD0D00501F74 /* DYSDemo03ViewController.m in Sources */,
 				F7FC6E5E21C2001B00501F74 /* DYSStudent.m in Sources */,
+				F7EB72DC21CA48940068454B /* DYSStudent2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

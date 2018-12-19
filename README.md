@@ -1,1 +1,10 @@
-# PrototypePattern
+# PrototypePattern-原型模式
+
+
+
+## 何为原型模式
+
+使用原型实例指定创建对象的种类，并通过复制这个原型创建新的对象。
+
+
+
